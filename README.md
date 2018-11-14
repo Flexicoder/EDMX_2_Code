@@ -1,7 +1,7 @@
 # EDMX_2_Code
 This is repository contains an XSLT file that can be used to generate C# code from an EDMX file. Really useful if you want to move away from using an EDMX.
 
-I've used this to move a project that had 260 tables away from EDMX to CodeFirst.
+I've used this to move a project that had 260 tables away from EDMX to CodeFirst. IT will decorate teh relevant attributes againset the properties, such as Key, ForeignKey, MaxLength etc
 
 ## How to use
 1. take a copy of your EDMX file and change the file extension to XML
